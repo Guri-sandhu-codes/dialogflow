@@ -29,7 +29,7 @@ def webhook():
         day = req['queryResult']['parameters'].get('day', None)
         # Perform lookup of opening hours based on restaurant name and day
         # Generate response text for Dialogflow
-        response_text = f"The opening hours of {restaurant_name} are..."
+        response_text = f"The opening hours are 10 AM - 11 PM" 
     else:
         response_text = "Sorry, I couldn't understand your request."
 
